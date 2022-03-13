@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&family=Poppins:wght@300;600&family=Titillium+Web:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+
+    <title>Dance-Academy</title>
+    <link rel="stylesheet" href="/assets/index.2002d794.css">
+</head>
+
+<body>
+    <main class="lg:px-20 font-Titi bg-slate-100 ">
+        <!---------------------------------- nav end start ---------------------------------------------->
+        <nav class="flex items-center justify-between bg-myblack text-white px-8 py-1 md:py-2">
+            <div class="logo ">
+                <img class="w-20" src="data:image/png;base64,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"
+                    alt="">
+            </div>
+            <div class="navitem hidden md:block">
+                <ul class="list-none flex space-x-4 hover:cursor-pointer">
+                    <li class="hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Home</li>
+                    <li class="hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Product</li>
+                    <li class="hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Prome</li>
+                    <li class="hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">About</li>
+                    <li class="hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Contact</li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-magnifying-glass hover:text-slate-300 transition duration-150  cursor-pointer"></i>
+        </nav>
+        <!---------------------------------- nav end here ---------------------------------------------->
+
+        <!---------------------------------- banner start here ---------------------------------------------->
+
+
+        <div class="relative" id="home">
+            <div class="relative text-white flex flex-col justify-center items-center">
+                <img src="/assets/Banner.51725943.png" alt="">
+                <div class="absolute sm:left-12  left-6  w-64 sm:w-[34rem] flex flex-col pt-8 sm:pt-44 ">
+                    <h1 class="font-semibold sm:text-7xl text-3xl ">Musicology</h1>
+                    <p class="text-sm sm:text-xl mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio numquam voluptas natus quibusdam esse, incidunt.</p>
+                    <button class="hover:bg-[#dd601d] transition duration-200 w-32 sm:my-5 mt-1 sm:text-xl rounded-sm outline-none border-none cursor-pointer sm:px-1 sm:py-3 py-1 px- bg-myorange text-white text-sm">Register Now</button>
+                </div>
+            </div>
+        </div>
+
+
+        <!---------------------------------- banner end here ---------------------------------------------->
+
+
+
+
+
+        <!------------------------------------ Dance_Tour start here -------------------------------------->
+
+
+
+        <div class="bg-myorange text-white pt-14 pb-24">
+            <h1 class="text-4xl sm:text-6xl font-semibold text-center">DANCE TOUR</h1>
+            <div class="grid grid-cols-1 md1:grid-cols-3 md:mt-10 gap-4 px-8 mt-5">
+                <div class="bg-myblack rounded-md">
+                    <img width="100%" src="/assets/card-1.46cc91b3.png" alt="" srcset="">
+                    <h1 class="text-center mt-4 sm:text-3xl text-2xl font-semibold">AMERICA</h1>
+                    <p class="text-sm text-center mb-4 mt-2 sm:mt-4 sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corrupti earum.</p>
+                </div>
+                <div class="bg-myblack rounded-md">
+                    <img width="100%" src="/assets/card-2.13b30b60.png" alt="" srcset="">
+                    <h1 class="text-center mt-4 sm:text-3xl text-2xl font-semibold">ASIA</h1>
+                    <p class="text-sm text-center mb-4 mt-2 sm:mt-4 sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corrupti earum.</p>
+                </div>
+                <div class="bg-myblack rounded-md">
+                    <img width="100%" src="/assets/card-3.e0673dc3.png" alt="" srcset="">
+                    <h1 class="text-center mt-4 sm:text-3xl text-2xl font-semibold">AUSTRLIA</h1>
+                    <p class="text-sm text-center mb-4 mt-2 sm:mt-4 sm:text-xl">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, corrupti earum.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!----------------------------- Dance_Tour end here ---------------------------------------------->
+
+
+
+
+
+
+
+        <!----------------------------- Pricing start here ---------------------------------------------->
+
+
+        <div class="bg-myblack text-white pt-16  sm:pt-24 pb-14 sm:pb-24 md:py-40 px-8">
+            <div>
+                <h1 class="text-center font-bold text-3xl sm:text-6xl">PRICING</h1>
+                <p class="my-5 text-sm text-center sm:text-xl">Lorem ipsum dolor sit amet conectetur adipisicing elitdolor sit amet consectetur adipisicing elitdolor sit amet consectetur adipisicing elit. Alias mollitia odio pariatur esse et</p>
+            </div>
+            <div class="grid grid-cols-1 md1:grid-cols-3 gap-4 md:mt-14 lg:gap-9">
+                <div class="bg-myorange px-2 rounded-md">
+                    <img class="w-20 mx-auto my-8" src="/assets/badge-icons.644bdc46.png" alt="">
+                    <h1 class="text-center font-semibold sm:text-3xl text-xl  my-11 ">BASIC</h1>
+                    <p class="text-center text-sm sm:text-xl mt-2">Lorem ipsum dolor sit amet conectetur adipisicing elit.</p>
+                    <button class="sm:text-xl hover:text-slate-300 hover:bg-[#282828] transition duration-200 outline-none border-none bg-myblack py-3 text-center w-full my-4 rounded-md mx-auto">$150.00</button>
+                </div>
+                <div class="bg-myorange px-2  rounded-md">
+                    <img class="w-20 mx-auto my-8" src="/assets/badge-icons.644bdc46.png" alt="">
+                    <h1 class="text-center font-semibold sm:text-3xl text-xl  my-11 uppercase ">Professional</h1>
+                    <p class="text-center text-sm sm:text-xl mt-2">Lorem ipsum dolor sit amet conectetur adipisicing elit.</p>
+                    <button class="sm:text-xl hover:text-slate-300 hover:bg-[#282828] transition duration-200 outline-none border-none bg-myblack py-3 text-center w-full my-4 rounded-md mx-auto">$200.00</button>
+                </div>
+                <div class="bg-myorange px-2 rounded-md">
+                    <img class="w-20 mx-auto my-8" src="/assets/badge-icons.644bdc46.png" alt="">
+                    <h1 class="text-center font-semibold sm:text-3xl text-xl  my-11 ">ULTIMATE</h1>
+                    <p class="text-center text-sm sm:text-xl mt-2">Lorem ipsum dolor sit amet conectetur adipisicing elit.</p>
+                    <button class="sm:text-xl hover:text-slate-200 hover:bg-[#282828] transition duration-200 outline-none border-none bg-myblack py-3 text-center w-full my-4 rounded-md mx-auto">$250.00</button>
+                </div>
+
+            </div>
+        </div>
+
+        <!----------------------------- Pricing end here ---------------------------------------------->
+
+        <!----------------------------- Dance section start here ---------------------------------------------->
+
+        <div class=" grid grid-cols-2">
+            <div>
+                <img class="w-full h-full" src="/assets/dance-1.414d2910.png" alt="">
+            </div>
+            <div class="bg-myorange text-white px-4 flex  flex-col justify-center py-4">
+                <h1 class="text-2xl font-semibold sm:text-5xl">AMAZIND DANCE</h1>
+                <p class=" sm:mt-2 sm:text-xl">Lorem ipsum dolor sit amet conectetur adipisicing elit. Facilis maxime esse culpa.</p>
+                <button class="bg-myblack rounded-md py-2 sm:text-xl w-[70%] sm:w-[40%] hover:bg-[#282828] transition duration-200">Read More</button>
+            </div>
+
+        </div>
+
+        <div class=" grid grid-cols-2">
+
+            <div class="bg-myorange text-white px-4 flex  flex-col justify-center py-4">
+                <h1 class="text-2xl  font-semibold sm:text-5xl">BEST DANCE</h1>
+                <p class=" sm:mt-2 sm:text-xl">Lorem ipsum dolor sit amet conectetur adipisicing elit. Facilis maxime esse culpa.</p>
+                <button class="bg-myblack  rounded-md py-2 sm:text-xl w-[70%] sm:w-[40%] hover:bg-[#282828] transition duration-200">Read More</button>
+            </div>
+            <div>
+                <img class="w-full h-full" src="/assets/dance-2.6b8b6924.png" alt="">
+            </div>
+
+        </div>
+
+        <!----------------------------- Dance section end here ---------------------------------------------->
+
+        <!----------------------------- statics section start here ---------------------------------------------->
+
+        <div class="bg-myblack text-white px-8 py-8  sm:py-24 ">
+            <div>
+                <H1 class="text-3xl font-semibold sm:text-6xl text-center">OUR STATISTICS</H1>
+                <p class="text-sm text-center mb-7 mt-3 sm:text-xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est officiis dolor eius accusantium totam</p>
+            </div>
+            <div class="grid grid-cols-3  gap-5 md:mt-14 mt-5">
+                <div>
+                    <h1 class="text-xl font-bold text-center sm:text-6xl">1240+</h1>
+                    <p class="text-sm text-center sm:text-xl">Club</p>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-center sm:text-6xl">2000+</h1>
+                    <p class="text-sm text-center sm:text-xl">Active Members</p>
+                </div>
+                <div>
+                    <h1 class="text-xl font-bold text-center sm:text-6xl">1.000+</h1>
+                    <p class="text-sm text-center sm:text-xl">Commuinty</p>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!----------------------------- statics section end here ---------------------------------------------->
+
+
+        <!----------------------------- Herbert section start here ---------------------------------------------->
+
+
+
+        <div class=" text-white justify-center flex items-center text-center">
+            <div class="relative w-full">
+                <img class="w-full bg-cover" src="/assets/bg.8af2280d.png" alt="">
+            </div>
+            <div class="absolute flex flex-col ">
+                <p class="text-sm sm:text-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet ad autem alias adipisci sed velit.</p>
+                <h1 class="text-xl font-bold sm:text-6xl mt-4">HERBERT SIMMON</h1>
+            </div>
+        </div>
+
+        <!----------------------------- Herbert section end here ---------------------------------------------->
+
+
+
+
+
+        <!----------------------------- Subscribe section start here ---------------------------------------------->
+
+
+        <div class="text-white px-8 bg-myorange pt-8 sm:py-20 md:py-40 pb-7">
+            <h1 class="uppercase text-center text-xl font-bold sm:text-6xl ">Subscribe</h1>
+            <p class="text-sm text-center md:mb-14 my-5 sm:text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ratione cumque officiis porro repudiand</p>
+
+            <div class="flex ">
+                <input placeholder="Your Email" type="text" class="text-xl text-gray-800 rounded-l w-full p-2 outline-none border-none">
+                <button class="hover:bg-[#282828] transition duration-200 bg-myblack capitalize py-2 px-1 sm:px-5 md:px-10  rounded-r">Subscribe</button>
+            </div>
+
+
+
+        </div>
+
+        <!----------------------------- Subscribe section end here ---------------------------------------------->
+
+
+
+        <!------------ Footer start ------------->
+        <footer class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-myblack text-white px-8 pt-4 pb-1">
+            <div>
+                <div>
+                    <h1 class="text-lg sm:text-2xl hover:text-slate-300 transition duration-150  cursor-pointer">Musicology</h1>
+                    <p class="text-xs  sm:text-sm mt-3 text-left  ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos impedit exceptur.</p>
+                </div>
+                <div class="flex space-x-3 mt-4">
+                    <img class="w-8 h-8 hover:cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAARnSURBVHjazJnfbxVFFMc/e7loQbRCDEhR6w8QlahVG6NiwUQTSVPFRDRqxTfDg2hifNAYE40PGGtIfFAg/gHVGIgvCmLqg5SqQYgkVKjXH6kaWpUfBZRKvLf9+nLWTDa7d2d3bynfZHN2d+b82D0zZ86ZCSRRABcBdwIdwPXAlcClwIXW/hfwOzAMHAL6ga+AU7k1SspzdUr6UNKYsmPMeDvz6M7K8KikPWoc9pjMhht8raTtmjpsNx0NMfgpSTVNPWqmq5DBG3T2sSGvwZs1fdic1eAeTT96fA1eq3MHa6P2BZGFowU4nCGM/wkcAcaBKjARhnejgdEZQBmYDVxii4svFgEjSQuHT4wdl/SGpHZJM3IE/0DSLZJel3TSM1bHDonVHsx7JV2Wc3WMu+ZL2u2hd3XckBgGWuu4ZhhYAtTseT1wn7lsDjDTXB9EhoRsqFSB08Ax4HOgx5F9CLiuju5fLE/5/w93eXzlcus7R9K+BkyoIUnNJvNmj/5d7pBIW3a/c9y4rYCR+yV1SHrSnr905H6TwvtJaHCzh6K3TGhLhowsLpNrcwz82N4tsefXUmROSmouAas8QstPRpfX6XMSeAW4EVhooWsZ8BJw1Po85ozt1ojMH1JsCIBVZWClh8HHjDYntPcDjwB/RN4ftOs94APgRdM3H7jaKQJcHfVwTzlldob4x+h5MW0/AyvsvgQ8b38tAL4G3gbGgPuBCnBHhD+UecbDjqVlC1VpqBotx7StMTrP/vQNTttDwNPA3VYqdQHfR/hDmRMedrSUTFFqJeX8QRd7gW/tvjdibIhrgG12XwG+iBmbro56mFcCJgsUoaHyVnN5Eu5yPmZXgsE+mFXyrVUT3o8ZXeYh4yajx4uU6aUYNyeFlFgXGT3gIWN/hCcPzpSAEwUEhNHhN+DTOv0GgCG7X+npvViPloAfM/zh6HhvB261+25gMIa34kSSpc5HkpA718NI2b58RUrHmUZrMW1bbRE4bqvcC/YXA2A3sNHh+yiGv+Yk+WmolCx2pmG20X9j2q4yly+w543Ag8ADwJtm0Fygz7azoghlNnnYsasE7PCJf06+kBS2KsCrQJt5pGyR4WXLE+5N4D2VYTLuCDOnvgZna0clHfHsu9gzW+tz8+E1KZ0POmnh1gZWxTsz5MMPR2u60RSGDut3gdV2RXFA0lyT2ZbSdzSupnvc8oEk/Gp5QTir1wGdwBU2Kc+3RSiICVuTNrnGLWbvBN5x+gxZyEvCE8D7cWX+YMqX7pN0eQOr5gWSBlJ0Dtbb+Vns4crTNglvlzQrh5FNkm6zvY0TGSZl7M4PwDMRd5FSFo0Cf1uSPxGz1Aa2KDTZdsBC4GJP+euBd32ODLacA/tqW7Jut/ZOo7G9eTe0N02DsZuKHhk8dxaNfbZRhzLtHuGnCAZMR8OPvdbZnlijMGQyp+ycLry6JX0mqZrDyKrxdufRHRQ8ul1kx7YdtrS2WJoY5s/jltiP2H5Ev12H8yr8bwAA7BxwVzYnyQAAAABJRU5ErkJggg=="
+                        alt="" srcset="">
+                    <img class="w-8 h-8 hover:cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAALTSURBVHja1JlPSFRBHMc/+9qifyiYlJVip5LACAoMKosgspDYKKKIwEOH6lCReKlb4MH+EXRI6dTBKBAklJIoJUMq6BZkWUFBVlKiEZlQ9O0yC4u8fflm3nN3v/B4u7Mzv99n38yb+c1vEpJw0EJgA1ALrAZWAGVAkfn9BzACvAcGgcfAU2Dc2qMkm2u7pHZJowqvcUkdkuptfIdtkJI0oOj0XNLBOIArJXUqPvVIqooKeJ+kCcWvv5IaXIHPaObVYgvcotypLSzwWeVeF/3YEj7zcD3QhZuGgT7gA/ATEJAw9zpgyzTtNAA3gubh4gieTJOk2QFD7XRIe+WZ7b0p/+i245M9DlwAfgfUWRzSZmfml0zgWmCHA+w74Np0FteQdtcDKT/gq45Pt3ua9cYsbF9Jf0ia+0ZgjSPwxyzlu4FdwCzgL1BjYbvSTAbdaeCjuMvLUt5mIjgieD+6PWAOsCdG4O9Eo51AsQdsBhZEYLA0oDujUl0S2OZgYBB4ZsZnX5Y6l4AKMzsIWAdUW/rbimPYeM4iCG928NfrOXZZsUWblQ7+lnnAUmZWpQ5tSzyzkbSVzWayyMHfvKSJomyVAkrMlHYHuO9Tpxkoz1iSV7l0T0LSF2BJBF19GWj0Kf8FzI1oOH3zTN4gCn3NUv42wvE/5pkkR6Hokwe8KiDgIS9ghcpH9XvAI2CyQIDveeYt7ioA2IfAaDokbC0A4NbMGLYXGMpj2BGgY2rQfTKPgRv9dgk9wEAewr4E2rNta/bmIXAqaB82AhyyNPw5S7nLlHkCeJNZkPSpdBNYCzSFNH7ABFFTo78KS9jrvrmSgK1MWw4zl7dsE9rncwDb6npkcGQGYU9FdShTLak3RtAnkmriOPZqkPQiQtAhScfiPKdLX/sl3ZU0aQH5R9IDSYdtfCccj27LTF55E1AFLAcWAfPN7xMmvToMvDYraX9ApvO/+jcA/dOXoAAjGDMAAAAASUVORK5CYII="
+                        alt="" srcset="">
+                    <img class="w-8 h-8 hover:cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAANpSURBVHjazJlbiE1RHMZ/Z5uGQZRxm9zFjNzmxW1yTcnQKA8uaZqMInlwSUpDXmlcCqVmPI1QSFEKyaUweJhI5DLuGmOoMVPGmJDPyzraTs45a+19zsz5atdZrf9a/++svfZa3/pWRBIh0BuYAcwBxgMjgcFAH1P/FfgEvAWeAreAe0Br4IySgjwLJJ2U1Cx3tEo6K6kkSG7XBksl1Sp1qJO0Kh2ER0g6p/ThsqRxqSK8TFK70o/fksrDEt6hzkdlUMKV6jpUuxLeqa7HPlvCJcocrI7lF4nZOPqGWtTTg2FAQ7TgxVSeJvNwzl/wE54DLMxAwlOApdGCf0o8BCaTmXhndMrfEZ6ZZrKtwA5gqkk8G9gN+D+gK8CzOO1HACV+8XPc4cs9K2m7Q/wrSXlxls+pko5ImiUpX9KPBP1cjC5r2ZLaHAisM8n2W8YPt9j+e0i6JOmqpG8J+urrmdfTy/H1AmwD1gA/E8QeA95b9NkfKAcagewEccUeMN9xPg70/a4BCoATcWIvW/b5GTgAlAFZCeLmeeak4IKVMeU3JlEhsAeoA36bulzLPrcCpRZxBUi67ygBJakiyZwcKmmupLGWettWuzzLAvJcTlRAJTAamAg8jhPX4N9OLTDAMq5fljlI2sIDHgBnHNslQ6FlXE5EUpvjKvESGJtCstnAF0sObR7Q5phgDHAwhYSLHQaswzO+gSs2AxeBxUD3kITXO8S2eMbkCIL3Zh53C0E23/xpWzR6CQRH0tdjPr72EIRrHOPrPeBGwGSbgcMhyG4Eihzb3IxIyjFfaY+Aid+YLfgkUGvZZj5wLUCu/h7wHbgQYqRGAdOSiCA/lgQkew1ojgqNamC5pUh5bJahZqMbzpvNxAYVRrgHQVWse/ncYi9vlLRNUi9HE3GRpDshjvtN//Mlih06eC3pkPEwhknKiiGYK6lI0i5HcRUPpfF8idvmfOdkMQMfjbCXmS6DgJwU7YRPgAn/OzVjEjVl2Ik5H3gRz0j5ZCmkOwub/GQTXRnszQBf7air3VrdhWRPBTW0u2Kkq8JeGaztRLJbUnUpM0nS9TQSvStpejquvcolPUoh0XpJG9J5Txd9VhivqyMAyV/GkioLkjsS8up2sPGVZwHjgCHGPOlp6tuBFuAD8NzIz5uOFsA/+DMAoYvYiLodLasAAAAASUVORK5CYII="
+                        alt="" srcset="">
+                    <img class="w-8 h-8 hover:cursor-pointer" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAsCAYAAAAehFoBAAAACXBIWXMAAC4jAAAuIwF4pT92AAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAAQaSURBVHjazJlriFVVFMd/c8hkppiJFHRM0sJ8h32xBEVyKvHDQH4Y07JkxgSLSAcKowwV+1SI0OODUyE96EEEYdKT0tHyVUJaYjkRiI11JyvtZT5G/31ZJzabM/fufe69Xhcczj57r8f/7LPP2mutXSeJMuhyYBowE5gIjAaGA402/hfQBxwGvgU+A3YDJ3JblJTnuk3Sa5J+UzydkPS2pNY8tmMF5kraocrRXkl3VgPwKEnvqHr0oaTxlQLcJumkqk/nJbWXC/gxXXh6Mi/gp1Q76ooFvFK1p3VZ2Ooy/HArsDmHh/wF6DZ/+xNwGmgCRgE3AC05dLYDLxfzw005ZmKnpAUBP+8wSaslHYvUP7LYDH8EzA58+3PAA0CX0zfLdr2rgcHAnzbjHwOHjKcBeBZYHGhnLzA1a4ZnRrx1wfObj0vqDfgS7u62NMLe3Kyfbl+g8B+Smk1miqSDkZ/4Fcfm4kCZwz7g6REGb3JkzuX0ALsd0E8HyrS6gF8NFHrG+IeWATal9xzQvQH876eAL5X0d4DAKeNF0nZvrEPSOEmfRoK+y/TNC+RvQtItgcwbTPm0AfqRNDUS8K+ObEioOj+JcOiv273T63/JaX8JbInYGIbYRgWwKYD/5sQyhVJ03jIFgFu9sUsydrwYSgFvC+Adl9jWWYqOAGeAoTYrLt3utB8CFkQCHmP3AwG8IxKgOTBOALgmY2w5cJm1j+eIF9IJCMnzrkwskSxFg+3+T8bYIOBda28EVkcCPuPoKUX1CVAXwJgumx5bzz61AGusvRZY4Y23AQ8PMItH7T4yNGsuREZNXxfhWe64qUmS3pD0oNN3haTnPJlVNvZoAIZjSNofCPjeQMXrSoSZLR7/aOsPycZ7kLQpEPAXprhRUn8J3n2SFkka5IFt9L7QZidWDqFuLOmLDfM6Avl/lvSipPssePeX3wjTtzFQ3/NImpMjOZxdgZxtnumaHCFzN5LqJf0bKDDZjHSXCbbD9CSSfoyQG5KurbcCmL8z3olO31ZJ6yUdDzS4R9KNzpreGQH2EzceDonYVhrvHElPOH83khokPWJhp18l6rMJme/wj5H0VeRXafNTpEMlBMZmuKgpVsl0+xJJ15ofbs6QWSHpbCTYQlZOV+zn+8ADucrcnJvydEq6LgNgImmG+edCzjW/cKA0/3Ngur8ZAi8AP1hhY0KJzfN3C5b6LaVvBurLKJofBCalDz7gYUCBi4vGAt+nD4k32AcsvIjALnPBFjsyqGXl8v9dLbbc2lVDsG/mLWjXYqY3lHtksOQCgu2s1KHM9ZK2VBHoLqcEVtFjr3ZJ31QQaI+k+6t5Tpded1it61QOkP0WyNyTx3ZdmUe3w62APQMYD1xlaXuDjZ+01P+oFbR3ANuB3rwG/xsAY/LWDpRWZkkAAAAASUVORK5CYII="
+                        alt="" srcset="">
+                </div>
+            </div>
+            <div class="grid grid-cols-3 gap-5 text-left">
+                <div>
+                    <h1 class="text-lg sm:text-2xl hover:text-slate-300 transition duration-150  cursor-pointer">About</h1>
+                    <ul class="text-xs md:text-sm my-3">
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Histroy</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Our Team</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Brand Guidlines</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Trems and Conditions</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Privacy Policy</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-lg sm:text-2xl hover:text-slate-300 transition duration-150  cursor-pointer">Service</h1>
+                    <ul class="text-xs md:text-sm my-3">
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">How to order</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Our Product</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Order Status</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Promo</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Payment Method</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1 class="text-lg sm:text-2xl hover:text-slate-300 transition duration-150  cursor-pointer">Other</h1>
+                    <ul class="text-xs md:text-sm my-3">
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Contact</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Help</li>
+                        <li class="sm:my-2 hover:text-slate-300 transition duration-150 hover:underline hover:underline-offset-4 decoration-slate-300 cursor-pointer">Privacy</li>
+
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!------------ Footer end ------------>
+
+
+
+    </main>
+
+</body>
+
+</html>
